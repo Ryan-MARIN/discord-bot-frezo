@@ -1,0 +1,26 @@
+{
+  "name": "discord-bot-frezo",
+  "version": "1.0.0",
+  "description": "A bot that allows to write discord messages in Frézo.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-MARIN/discord-bot-frezo.git"
+  },
+  "keywords": [
+    "discord",
+    "frézo"
+  ],
+  "author": "Ryan Marin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-MARIN/discord-bot-frezo/issues"
+  },
+  "homepage": "https://github.com/Ryan-MARIN/discord-bot-frezo#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}
