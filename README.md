@@ -16,7 +16,7 @@ Write in traditional Frézo
 - ```/frezo -t ![deco_start] ![deco_end] [message]``` (with different decorations at the beginning and at the end)
 
 Specify a font (only in simplified Frézo)
-- ```/frezo -s ?[police] [message]```
+- ```/frezo -s ?[font] [message]```
 
 Indicate the begining of the message with a backslash (it should not be necessary)
 - ```/frezo -s /[message]```
