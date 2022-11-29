@@ -2,31 +2,21 @@
 A discord bot that allows to send messages in FRÉZO.
 
 ## Commands list
-Afficher les aides
-- `/frezo`
+Display help
+- ```/frezo```
 - ```/frezo -h```
 - ```/frezo -help```
 
-Écrire en Frézo simplifié
+Write in simplified Frézo
 - ```/frezo -s [message]```
 
-Écrire en Frézo traditionnel
-- ```/frezo [message]```
+Write in traditional Frézo
 - ```/frezo -t [message]```
+- ```/frezo -t ![decoration] [message]``` (with a decoration pack)
+- ```/frezo -t ![deco_start] ![deco_end] [message]``` (with different decorations at the beginning and at the end)
 
-Écrire en Frézo traditionnel avec décorateur
-- ```/frezo -t ![decorateur] [message]```
-
-Écrire en Frézo traditionnel avec des décorateurs de début et de fin de texte différents
-- ```/frezo -t ![deco_debut] ![deco_fin] [message]```
-
-Le décorateur simple [] peut s'utiliser juste en indiquant un point d'exclamation et sans préciser le décorateur.
-- ```/frezo -t ! [message]```
-- ```/frezo -t ![deco_debut] ! [message]```
-- ```/frezo -t ! ![deco_fin] [message]```
-
-Choisir la police d'écriture
+Specify a font (only in simplified Frézo)
 - ```/frezo -s ?[police] [message]```
 
-Forcer le début du message si le message ne commence pas par une lettre
+Indicate the begining of the message with a backslash (it should not be necessary)
 - ```/frezo -s /[message]```
